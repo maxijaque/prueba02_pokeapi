@@ -10,42 +10,43 @@
 
     <div class="column2">
         <div class="card">
-            <h1>{pok_id} {pok_name}</h1>
-            {img_art_official}
+            <h1>#$pok_id $pok_name</h1>
+            <img src="$pok_img" alt="" width="150" height="150">
+            <h4>$pok_stage_previous</h4>
             <div class="container">
 
                 <h2>Estadísticas</h2>
                 <table>
                     <tr>
-                        <td><h5>HP: {pok_hp}</h5></td>
-                        <td><h5>Ataque: {pok_at}</h5></td>
-                        <td><h5>Defensa: {pok_de}</h5></td>
-                        <td><h5>Ataque Especial: {pok_ate}</h5></td>
-                        <td><h5>Defensa Especial: {pok_dee}</h5></td>
-                        <td><h5>Velocidad: {pok_ve}</h5></td>
+                        <td><h5>HP: $pok_hp</h5></td>
+                        <td><h5>Ataque: $pok_at</h5></td>
+                        <td><h5>Defensa: $pok_de</h5></td>
+                        <td><h5>Ataque Especial: $pok_ate</h5></td>
+                        <td><h5>Defensa Especial: $pok_dee</h5></td>
+                        <td><h5>Velocidad: $pok_ve</h5></td>
                     </tr>
                 </table>
                 <h3><b>Tipo</b></h3>
-                <!--<span class="label {type}">{type}</span>-->
-                    {span_tipo}
+                <!--<span class="label $type">$type</span>-->
+                    $span_type
 
-                <p>{flavor_text}</p>
+                <p>$pok_flavor_text</p>
 
                 <h3>Super efectivo contra:</h3>
-                    {span_double_damage_to}
+                    $span_double_damage_to
                 <h3>Débil contra:</h3>
                 <!-- <span class="label fighting">Lucha</span> -->
-                    {span_double_damage_from}
+                    $span_double_damage_from
                 <h3>Resistente contra:</h3>
-                    {span_half_damage_from}
+                    $span_half_damage_to
                 <h3>Poco Eficaz contra</h3>
-                    {span_half_damage_to}
+                    $span_half_damage_from
                 <h3>Inmune contra:</h3>
                 <!-- <span class="label ghost">Fantasma</span> -->
-                    {span_no_damage_from}
+                    $span_no_damage_from
                 <h3>Ineficaz contra:</h3>
                 <!-- <span class="label ghost">Fantasma</span> -->
-                    {span_no_damage_to}
+                    $span_no_damage_to
 
             </div>
         </div>

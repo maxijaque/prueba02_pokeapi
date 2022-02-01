@@ -45,7 +45,10 @@ body {
   text-align: center;
   background-color: #f1f1f1;
 }
+.card h4 {
+  text-align: start;
 
+}
 /* Etiquetas Tipos */
 .label {
   color: #ffffff;
@@ -78,6 +81,9 @@ body {
 .ground {background-color: #42340d;}
 .poison {background-color: #530ca3fd;}
 .flying {background-color: #5584c2;}
+.mythical {background-color: #5584c2;}
+.legendary {background-color: #5584c2;}
+.baby {background-color: #5584c2;}
 
 .container{
   text-align: left;
